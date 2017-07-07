@@ -74,7 +74,8 @@ $(document).ready(function() {
 
     $(".name").text(nameInput);
 
-    $("#recs").show();
+    $("#recs").fadeIn();
+    $("#surveyBlock").fadeOut();
 
     event.preventDefault();
   });

@@ -3,6 +3,13 @@ img {
   margin: auto;
 }
 
+form {
+  padding: 20px;
+  border: 2px solid #9fdbfc;
+  border-radius: 1%;
+  margin-bottom: 10px;
+}
+
 .well {
   background-color: #d4f4e1;
   margin-left: 25%;
