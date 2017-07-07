@@ -30,8 +30,119 @@
       <div id="formOne">
         <h4>Answer the following five questions and we'll tell you which of our tracks would best match your interests.</h4>
 
-        <!-- Survey goes here -->
+        <div class="form-group">
+          <label for="end_selection">I am more interested in:</label>
+          <select class="form-control" id="end_selection">
+            <option value="front">Deciding how software and webpages look and act</option>
+            <option value="back">Figuring out how software functions (and how to make it function better)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="webdev">Do you want to focus on development for the web?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="webdev" value="Y">
+              Yes, I am interested in web development
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="webdev" value="N">
+              No, I'm more interested in internal software
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="webdev" value="0">
+              I don't know yet
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="mobile">I am interested in mobile development.</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="mobile" value="Y">
+              Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="mobile" value="N">
+              No
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="mobile" value="0">
+              I don't know yet
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="biztype">Type of business you would prefer to work for:</label>
+
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="biztype" value="corp">
+              Large corporation
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="biztype" value="start">
+              Start-up
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="biztype" value="govt">
+              Government
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="biztype" value="nonprofit">
+              Non-profit
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="biztype" value="0">
+              I don't know yet
+            </label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="comfort">How comfortable are you with coding?</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="comfort" value="V">
+              Very comfortable
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="comfort" value="S">
+              Somewhat comfortable
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="comfort" value="N">
+              I have not done any programming
+            </label>
+          </div>
+        </div>
+
       </div>
+
+
+
 
       <div id="recommendations">
         <h4>Here are the tracks we think would best fit your interests:</h4>
