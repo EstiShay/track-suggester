@@ -4,12 +4,14 @@ $(document).ready(function() {
   var ruby = 0
   var php = 0
   var andrJava = 0
+
   $("form#epSurvey").submit(function(event) {
     var answer1 = $("select#end_selection").val()
     var answer2 = $("input:radio[name=webdev]:checked").val()
     var answer3 = $("input:radio[name=mobile]:checked").val()
     var answer4 = $("input:radio[name=biztype]:checked").val()
     var answer5 = $("input:radio[name=comfort]:checked").val()
+    // Values are integers
 
     if (answer1 === "front") {
       design += 3;
@@ -63,16 +65,14 @@ $(document).ready(function() {
       andrJava +=1;
     }
 
-    $("ol").append("design:" + design + "<br />");
-    $("ol").append("ruby:" + ruby + "<br />");
-    $("ol").append("php:" + php + "<br />");
-    $("ol").append("cSharp:" + cSharp + "<br />");
-    $("ol").append("andrJava:" + andrJava);
+    $("ul").append("<li>Design/CSS:" + design + "</li>");
+    $("ul").append("<li>Ruby:" + ruby + "</li>");
+    $("ul").append("<li>PHP:" + php + "</li>");
+    $("ul").append("<li>C#:" + cSharp + "</li>");
+    $("ul").append("<li>Android/Java:" + andrJava + "</li>");
 
     $("#recs").show();
 
     event.preventDefault();
-
   });
-  // $("#recs").show();
 });
