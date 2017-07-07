@@ -1,3 +1,31 @@
+img {
+  display: block;
+  margin: auto;
+}
+
+.well {
+  background-color: #d4f4e1;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: "PT Serif", Georgia, serif;
+  /*#9fdbfc;*/
+  float: right;
+}
+
+.well ul {
+  font-size: 20px;
+}
+
+.results {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+#end_selection {
+  width: 600px;
+}
+
 #recs {
   display: none;
 }

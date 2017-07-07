@@ -9,19 +9,21 @@
   </head>
   <body>
     <div class="container">
-      <h1>Epicodus Track Suggestion Survey</h1>
+      <img src="https://static1.squarespace.com/static/5524448ee4b0d6f6b83ab9e2/t/57cf3de246c3c4d2933aa57c/1499447516382/?format=1500w" alt="Epicodus logo">
+      <h1>Track Suggestion Survey</h1>
       <hr>
 
       <div class="student_info">
+        <h4>Hi there!</h4>
         <p>
-          <label id="name">Hi there!  What's your name?
+          <label id="name">What's your name?
             <input type="text" name="name">
           </label>
         </p>
 
         <p>
           <label id="name">
-            And your email? (Only if you'd like us to contact you about learning at Epicodus)
+            And your email? (Only if you'd like us to contact you)
             <input type="text" name="name">
           </label>
         </p>
@@ -29,6 +31,7 @@
       <hr>
 
       <h4>Answer the following five questions and we'll tell you which of our tracks would best match your interests.</h4>
+      <p><em>Note that, while you are not required to answer every question, answering all of them will give you a more accurate score.</em></p>
 
       <div>
         <form id="epSurvey">
@@ -140,18 +143,20 @@
             </div>
           </div>
 
-          <button type="submit" class="btn btn-success">What should I learn?</button>
+          <button type="submit" class="btn btn-info">What should I learn?</button>
         </form>
       </div>
 
-      <hr>
-
-      <div id="recs">
-        <h4>We recommend you consider the tracks with the highest points:</h4>
+      <div class="well" id="recs">
+        <h3>We recommend you consider the tracks with the highest points:</h3>
         <ul>
           <!-- recommendations here -->
         </ul>
-        <a href="https://www.epicodus.com/what-to-expect/">Learn more about these tracks at Epicodus</a>
+        <span class="results">
+          <p>What do you think? Are the results what you expected or did you surprise yourself?</p>
+          <p><a href="https://www.epicodus.com/what-to-expect/">Learn more about these tracks at Epicodus</a></p>
+          <input type="button" class="btn btn-info" value="Try the quiz again" onClick="window.location.reload()">
+        </span>
       </div>
     </div>
   </body>
