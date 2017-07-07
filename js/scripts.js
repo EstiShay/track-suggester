@@ -66,10 +66,10 @@ $(document).ready(function() {
     }
 
     $("ul").append("<li>Design/CSS:" + design + "</li>");
-    $("ul").append("<li>Ruby:" + ruby + "</li>");
-    $("ul").append("<li>PHP:" + php + "</li>");
-    $("ul").append("<li>C#:" + cSharp + "</li>");
-    $("ul").append("<li>Android/Java:" + andrJava + "</li>");
+    $("ul").append("<li>Ruby/Rails:" + ruby + "</li>");
+    $("ul").append("<li>PHP/Drupal:" + php + "</li>");
+    $("ul").append("<li>C#/.NET:" + cSharp + "</li>");
+    $("ul").append("<li>Java/Android:" + andrJava + "</li>");
 
     $("#recs").show();
 
