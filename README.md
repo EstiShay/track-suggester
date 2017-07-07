@@ -6,7 +6,7 @@
 
 ## Description
 
-This survey takes in five survey responses and generates three track suggestions.
+This survey takes in five survey responses and generates list of track suggestions with point totals to indicate which are the best fit.
 
 ## Technologies Used
 
