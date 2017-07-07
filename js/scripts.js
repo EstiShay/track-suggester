@@ -11,7 +11,8 @@ $(document).ready(function() {
     var answer3 = $("input:radio[name=mobile]:checked").val()
     var answer4 = $("input:radio[name=biztype]:checked").val()
     var answer5 = $("input:radio[name=comfort]:checked").val()
-    // Values are integers
+    var nameInput = $("input#name").val()
+    // Answer values are integers
 
     if (answer1 === "front") {
       design += 3;
@@ -70,6 +71,8 @@ $(document).ready(function() {
     $("ul").append("<li>PHP/Drupal:" + php + "</li>");
     $("ul").append("<li>C#/.NET:" + cSharp + "</li>");
     $("ul").append("<li>Java/Android:" + andrJava + "</li>");
+
+    $(".name").text(nameInput);
 
     $("#recs").show();
 
