@@ -12,7 +12,6 @@ $(document).ready(function() {
     var answer4 = $("input:radio[name=biztype]:checked").val()
     var answer5 = $("input:radio[name=comfort]:checked").val()
     var nameInput = $("input#name").val()
-    // Answer values are integers
 
     if (answer1 === "front") {
       design += 3;
