@@ -22,6 +22,11 @@ img {
   text-align: center;
 }
 
+.req {
+  color: red;
+  font-style: italic;
+}
+
 #end_selection {
   width: 600px;
 }
